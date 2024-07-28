@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Sekolah</title>
+  <link rel="stylesheet" href="styles_kontak.css">
+</head>
+<body>
+  <header>
+    <img src="MTS1.png" alt="Logo Sekolah" class="logo">
+    <nav>
+       <ul>
+        <li><a href="apk.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="pengumuman.html">Pengumuman</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li><a href="apk.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact">
+      <h1>Kontak Kami</h1>
+      <p>Jika Anda memiliki pertanyaan atau butuh informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui formulir di bawah ini atau melalui kontak yang tersedia.</p>
+      <h2>Informasi Kontak</h2>
+      <p>
+        <strong>Alamat:</strong> Jl. Pendidikan No. 123, Kota Pelajar<br>
+        <strong>Telepon:</strong> (021) 123-4567<br>
+        <strong>Email:</strong> info@sekolahkita.sch.id
+      </p>
+      <h2>Formulir Kontak</h2>
+      <form id="contactForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+      <div id="form-message"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Sekolah Kita. All rights reserved.</p>
+  </footer>
+  <script src="script_kontak.js"></script>
+</body>
+</html>

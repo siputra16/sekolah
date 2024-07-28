@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Sekolah</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="MTS1.png" alt="Logo Sekolah" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
+        <li><a href="pengumuman.html">Pengumuman</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+        <li><a href="apk.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="login-section">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+      <div id="error-message"></div>
+    </section>
+     <section class="banner">
+      <h1>Selamat Datang di Aplikasi Sekolah</h1>
+      <p>Informasi terbaru dan layanan sekolah dalam genggaman Anda.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Sekolah Kita. All rights reserved.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
